@@ -1,0 +1,182 @@
+.logox
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 115px;
+  padding-top: 10px;
+}
+.logo
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 70px;
+  padding:10px; 
+}
+p{
+	text-align: center;
+	font-weight:bold;
+	font-size:15;
+	color: white;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.p
+{display: none;
+}
+body
+{
+  background-image: url('main.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.click {
+  padding-top:100px;
+}
+.background
+{
+  background-color: none;
+  border: none;
+  padding:10px;
+  font-weight:bold;
+  text-align: center;
+  font-size: 35px; 
+  color:gold;
+  font-family: castellar;
+}
+#drink1{
+  background-image: url("001.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#drink2{
+  background-image: url("002.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#drink3{
+  background-image: url("003.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#drink4{
+  background-image: url("004.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#drink5{
+  background-image: url("005.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.click button {
+  background-color: grey; 
+  border: 1px solid white;
+  color: white;
+  padding: 40px 88px;
+  cursor: pointer;
+  margin:2px 0px; 
+}
+
+.click:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.click button:not(:last-child) {
+  border-right: none;
+}
+
+.click button:hover {
+  background-color: skyblue;
+}
+
+.card {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+#span {
+  color: grey;
+  font-size: 22px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+form
+{
+  background-color: white;
+  margin: 5px auto;
+  border: 1px solid #888;
+  width: 30%;
+  text-align: center;
+  border:1px solid #cccccc;
+}
+#x
+{
+  color: white;
+  padding: 12px; 
+  width: 100%;
+  background-color: red;
+}
